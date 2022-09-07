@@ -1,0 +1,42 @@
+.user-menu-wrapper {
+    position: relative;
+    min-height: 400px;
+
+    .is-not-login-wrapper {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(102, 102, 102, 0.2);
+        z-index: 10;
+    }
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+.bg-grey {
+    background-color: #eae8e8;
+}
+
+.trash {
+    cursor: pointer;
+    transition: font-size ease-in-out .2s;
+
+    &:hover {
+        font-size: 1.5em;
+        color: #6666ff !important;
+    }
+}
